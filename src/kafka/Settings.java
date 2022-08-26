@@ -6,10 +6,9 @@ class Settings
 {
     // To configure
     static String bootstrapServers = "cell-1.streaming.eu-frankfurt-1.oci.oraclecloud.com:9092";
-    static String authToken = "X9auxxxxxxxxxx";
+    static String streamPoolId = "ocid1.streampool.oc1.eu-frankfurt-1.amaaaaaauxxxxxxxxxxxxxxxxxxx";
     static String tenancyName = "tenantname";
     static String username = "oracleidentitycloudservice/name@domain.com";
-    static String streamPoolId = "ocid1.streampool.oc1.eu-frankfurt-1.amaaaaaauxxxxxxxxxxxxxxxxxxx";
     static String authToken = "X9auxxxxxxxxxx";
 
     static String streamName = "topic"; // This is a topic in Kafka 
