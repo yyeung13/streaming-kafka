@@ -5,11 +5,12 @@ import java.util.Properties;
 class Settings 
 {
     // To configure
-    static String bootstrapServers = "cell-1.streaming.eu-frankfurt-1.oci.oraclecloud.com:9092";
-    static String streamPoolId = "ocid1.streampool.oc1.eu-frankfurt-1.amaaaaaauxxxxxxxxxxxxxxxxxxx";
-    static String tenancyName = "tenantname";
-    static String username = "oracleidentitycloudservice/name@domain.com";
-    static String authToken = "X9auxxxxxxxxxx";
+    static String bootstrapServers = "cell-1.streaming.ap-singapore-1.oci.oraclecloud.com:9092";
+    static String streamPoolId = "ocid1.streampool.oc1.ap-singapore-1.amaaaaaagoffsvaasyjn2z2kw5grqh3tymwibwf3td43mv4mz2ddpysst7fq";
+    static String tenancyName = "bbtrial";
+    //static String username = "oracleidentitycloudservice/name@domain.com";
+    static String username = "y.yeung@oracle.com";
+    static String authToken = "PSDq8Szt0{{giEL7tJ<)";
 
     static String streamName = "topic"; // This is a topic in Kafka 
 
